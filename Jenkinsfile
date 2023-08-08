@@ -92,7 +92,7 @@ pipeline {
             }
         }
 
-        stage('Deploy to CodeDeploy') {
+        stage('Deploy to CodeDeploy12') {
             steps {
                 script {
                     // AWS CLI를 사용하여 CodeDeploy에 배포 생성
